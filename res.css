@@ -1,0 +1,44 @@
+
+/* タブレット */
+@media(max-width:768px) {
+    .title h1{
+        width: 100%;
+        text-align: center;
+    }
+    .flex-item img{
+        width: 80vw;
+    }
+    .flex-center {
+        width: 100%;
+    }
+    .flex-item1 {
+        width: 46%;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .contact1 {
+        width: 100%;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}
+/* スマホ */
+@media(max-width:550px) {
+    .flex-item1 {
+        width: 95%;
+    }
+    .contact1 {
+        display: block;
+        
+    }
+    .title1 h1{
+        width: 100%;
+        text-align: center;
+    }
+    .Form-Item {
+        width: 90%;
+    }
+    .Form-Btn {
+        width: 100%;
+    }
+}
